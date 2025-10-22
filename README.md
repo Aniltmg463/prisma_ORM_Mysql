@@ -84,3 +84,5 @@ cd "e:\Cwing\node p\nestjs\todo-app-mysql-prisma" ; npx prisma db push
 ## The .env file looks correct. Let's try a different approach - let's verify if the environment variable is being loaded by testing it explicitly:
 cd "e:\Cwing\node p\nestjs\todo-app-mysql-prisma" ; $env:DATABASE_URL = "file:./prisma/db/dev.sqlite" ; npx prisma db push
 cd "e:\Cwing\node p\nestjs\todo-app-mysql-prisma" ; $env:DATABASE_URL = "file:./prisma/db/dev.sqlite" ; npm run start:dev
+
+https://www.youtube.com/watch?v=-_nz4q_Cyr4
