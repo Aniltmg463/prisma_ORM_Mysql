@@ -73,3 +73,14 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](LICENSE).
 
 npx prisma migrate dev --name init
+
+
+
+## if this step dont wokrk do this:
+cd "e:\Cwing\node p\nestjs\todo-app-mysql-prisma" ; npx prisma generate
+cd "e:\Cwing\node p\nestjs\todo-app-mysql-prisma" ; npx prisma db push 
+## may show issue such as:
+## The issue is that Prisma isn't reading the environment variable correctly. Let's add quotes to the DATABASE_URL in the .env file:
+## The .env file looks correct. Let's try a different approach - let's verify if the environment variable is being loaded by testing it explicitly:
+cd "e:\Cwing\node p\nestjs\todo-app-mysql-prisma" ; $env:DATABASE_URL = "file:./prisma/db/dev.sqlite" ; npx prisma db push
+cd "e:\Cwing\node p\nestjs\todo-app-mysql-prisma" ; $env:DATABASE_URL = "file:./prisma/db/dev.sqlite" ; npm run start:dev
