@@ -73,3 +73,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](LICENSE).
 
 npx prisma migrate dev --name init
+
+to run project:
+npx prima generate
+npm run start:dev
