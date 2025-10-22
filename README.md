@@ -73,3 +73,11 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](LICENSE).
 
 npx prisma migrate dev --name init
+
+
+git cmd:
+Rename the Current Branch
+git branch -m <new-branch-name>
+
+Rename Another Branch
+git branch -m <old-branch-name> <new-branch-name>
